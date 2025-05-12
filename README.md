@@ -31,19 +31,17 @@ El sistema está construido siguiendo una arquitectura de microservicios con los
 
 #### Frontend
 - React.js con TypeScript
-- Redux Toolkit para gestión de estado
-- Material UI / Tailwind CSS
-- Monitoreo de errores con Sentry
+
 
 #### Backend
-- API Gateway con Express.js
+- API Gateway 
 - Microservicios especializados
 - Autenticación JWT
 - Servicios de logs centralizados
 
 #### Datos
-- PostgreSQL en cluster (primary-replica)
-- Redis para caché y sesiones
+- Base de datos SQL en cluster (primary-replica)
+- Caché y sesiones
 - Elasticsearch para búsquedas y logs
 
 #### DevOps
